@@ -142,9 +142,23 @@ form {
       
           
           .heading.text-center {
-              margin-top: 120px;
+              margin-top: 40px;
               padding-left: 31px;
           }
+
+    
+        #background-video {
+    width: 120vw;
+    height: 120vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(0.5);
+  }
       }
 
 
