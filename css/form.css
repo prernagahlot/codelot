@@ -13,6 +13,8 @@ footer {
     top: 0;
     bottom: 0;
     z-index: -1;
+    filter: brightness(0.5);
+    
   }
 .col-md-3.form {
     margin-top: 100px;
@@ -83,7 +85,7 @@ form {
 }
 
  .heading.text-center {
-        margin-top: 162px;
+        margin-top: 62px;
     };
 
 
@@ -110,7 +112,7 @@ form {
 
     
 .heading.text-center {
-    margin-top: 211px;
+    margin-top: 263px;
     padding-left: 31px;
 }
 }
