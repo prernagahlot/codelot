@@ -101,8 +101,11 @@ form {
 }
 @media only screen and (max-width: 360px)
 {
-        margin-top: 111px
-;
+
+    .heading.text-center {
+    margin-top: 263px;
+}
+
 }
     @media only screen and (max-width: 424px)
     {
