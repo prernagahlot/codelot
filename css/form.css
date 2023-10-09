@@ -111,14 +111,14 @@ form {
 
     
     .heading.text-center {
-        margin-top: 82px;
+        margin-top: 30px;
         padding-left: 17px;
         padding-right: 17px;
     }
 
         #background-video {
     width: 120vw;
-    height: 100vh;
+    height: 120vw;
     object-fit: cover;
     position: fixed;
     left: 0;
