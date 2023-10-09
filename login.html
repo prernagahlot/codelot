@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/form.css">
+
     
     
 
@@ -23,38 +22,36 @@
         crossorigin="anonymous"></script>
     <script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+    <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
-  
-<div class="overlay"></div>
+    <div class="overlay"></div>
 <div class="row justify-content-center body">
 <div class="heading text-center text-white">
   <h1>WELCOME TO COCO MOCO!</h1>
-  <h1>Register Now!</h1>
 </div>
 <div class="row justify-content-center body-1">
     <video id="background-video" playsinline autoplay muted loop>
-    <source src="bg1.mp4" type="video/mp4">
+    <source src="./videos/bg1.mp4" type="video/mp4">
 </video>                                      
   <div class="col-md-3 form">
-    <form action="home.html">                      
+    <form action="home.html" method='POST'>                      
         
         <label for="email"><span class="text-white">EMAIL</span></label>
         <input type="email" class="form-control " id="inputEmail3" name="email" required><br>
 
         <label for="pass"><span class="text-white">PASSWORD</span></label>
         <input type="password" class="form-control " id="inputPassword3" name="pass" required><br>
-    
-      <label for="email"><span class="text-white">CONFIRM PASSWORD</span></label><br>
-        <input type="password" class="form-control " id="inputPassword3" name="cpass" required>
-    
-  
+
         <input type="submit" class="btn btn-primary" name="submit1" id="submit-m" required>
      </form>
-     <p class="text-white">Already have account? <a href="login.html">login here</a></p>
         </div>     
 </div>
 </div>
 </body>
 
 
+
+   
+</body>
+</html>
