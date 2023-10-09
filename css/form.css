@@ -112,7 +112,8 @@ form {
     
     .heading.text-center {
         margin-top: 82px;
-        padding-left: 31px;
+        padding-left: 17px;
+        padding-right: 17px;
     }
 }
 @media only screen and (max-width: 360px)
