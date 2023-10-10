@@ -127,18 +127,21 @@ footer {
 
     
     body {
-        background-size: cover;
-        background-position-x: -155px;
-        background-repeat: no-repeat;
-        background-position-y: 1px;
-        height: 106vh;
-        margin-bottom: 10px;
-        filter: brightness(100%);
-        background-image: url(bg-1.jpg);
-        z-index: -1;
-        filter: brightness(0.9);
-        position: fixed;
-    }
+          margin: 0;
+          padding: 0;
+          background-image: url(bg-1.jpg);
+          background-size: cover;
+          background-position: fixed;
+          background-repeat: no-repeat;
+          height: 149vh;
+          background-attachment: fixed;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+          font-family: Arial, sans-serif;
+          filter: brightness(0.9);
+      }
 
     .row.justify-content-center.body {
         padding-top: 131px;
