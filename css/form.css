@@ -145,6 +145,8 @@ body
           color: #fff;
           font-family: Arial, sans-serif;
           filter: brightness(0.9);
+        background-position-x: -73px;
+        background-position-y: 0px;
       }
 
     .row.justify-content-center.body {
