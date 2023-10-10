@@ -137,7 +137,7 @@ footer {
         background-image: url(bg-1.jpg);
         z-index: -1;
         filter: brightness(0.9);
-        background-attachement: fixed;
+        position: fixed;
     }
 
     .row.justify-content-center.body {
