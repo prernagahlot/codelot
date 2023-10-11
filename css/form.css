@@ -2,11 +2,12 @@
 footer {
     margin-top: 0px;
 }
-body
-{
+
+body {
     height: 116vw!important;
     overflow: hidden;
 }
+
 .col-md-3.form {
  
 
@@ -14,6 +15,11 @@ body
         padding-bottom: 20px;
 
     
+}
+
+input[type=text]
+{
+    border: 2px solid black;
 }
 
 .row.justify-content-center.body {
@@ -54,7 +60,6 @@ body
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    
     z-index: 99;
 
 }
@@ -120,6 +125,7 @@ body
 
     .form{
         background: rgba(0, 0, 0, 0.151);
+
       }
       
       @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
@@ -129,8 +135,8 @@ body
         }
       }
 
-    
-    body {
+
+      body {
           margin: 0;
           padding: 0;
           background-image: url(bg-1.jpg);
@@ -144,10 +150,13 @@ body
           justify-content: center;
           color: #fff;
           font-family: Arial, sans-serif;
-          filter: brightness(0.9);
-        background-position-x: -73px;
-        background-position-y: 0px;
+          filter: brightness(0.);
+          background-position-x: -73px;
+          background-position-y: 0px;
       }
+
+    
+   
 
     .row.justify-content-center.body {
         padding-top: 131px;
@@ -191,8 +200,29 @@ body
           padding-left: 20px;
           padding-right: 20px;
       }
+  
 
-          
+.col-md-3.form {
+    width: 95%;
+    padding-top: 23px;
+    padding-bottom: 15px;
+    height: 385px;
+}
+  
+     
+      .row.justify-content-center.body-1 {
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+body {
+
+    background-image: url('bg-1.jpg');
+}
+     
+    }
+
     @media only screen and (max-height: 500px)
     {
 
@@ -215,26 +245,4 @@ body
             background-position-y: 0px;
         }
   
-    }
-  
-
-.col-md-3.form {
-    width: 91%;
-    padding-top: 23px;
-    padding-bottom: 15px;
-    height: 385px;
-}
-  
-     
-      .row.justify-content-center.body-1 {
-        padding-top: 40px;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-    
-body {
-
-    background-image: url('bg-1.jpg');
-}
-     
     }
