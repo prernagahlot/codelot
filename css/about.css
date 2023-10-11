@@ -60,12 +60,11 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
 
     
     .image {
-        width: 282px;
+        width: 306px;
         height: 400px;
-        margin-left: 58px;
+        margin-left: 50px;
         margin-top: 26px;
     }
-
     .sec1 {
         height: 302px;
         background-color: #44589e;
