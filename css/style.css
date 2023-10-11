@@ -3,6 +3,11 @@
     z-index: 99;
 }
 
+.image-box:hover{
+    background-color: black;
+    color: #ffffff;
+}
+
 .typewriter {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid rgba(160, 159, 158, 0.87); /* The typwriter cursor */
@@ -262,7 +267,7 @@ form .submit {
 {
     #banner-text h1 {
         font-size: 33px;
-            margin-right: 60px!important;
+            margin-right: 39px!important;
         }
 }
 
@@ -283,6 +288,31 @@ form .submit {
 
        
 
+    }
+
+    .div {
+        position: relative;
+        bottom: 470px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .vet2 {
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        bottom: 58px;
+    }
+
+    .vet
+    {
+        filter: brightness(0.5);
+    }
+    #banner {
+        background-color: #44589e;
+        padding-top: 86px;
+        padding-bottom: 0px;
+        height: 181vw;
     }
 
     .typewriter {
@@ -332,7 +362,7 @@ form .submit {
 
     #black {
         padding-top: 0px;
-        padding-bottom: 40px;
+        padding-bottom: 0px;
     }
 
     .row.justify-content-center.text-white.footer {
